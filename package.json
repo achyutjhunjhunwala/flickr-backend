@@ -1,0 +1,54 @@
+{
+  "name": "TheUiGuy",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "start": "node dist/index.js",
+    "serve": "nodemon lib/index.js --exec babel-node",
+    "serve:debug": "nodemon --inspect lib/index.js --exec babel-node",
+    "build": "babel lib -d dist",
+    "lint": "eslint . --fix",
+    "precommit": "npm run lint",
+    "prepush": "npm run lint && npm test"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Achyut Jhunjhunwala",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^21.9.0",
+    "husky": "^0.14.3",
+    "jest": "^21.0.2",
+    "nodemon": "^1.12.0"
+  },
+  "dependencies": {
+    "@purest/providers": "^1.0.0",
+    "@request/client": "^0.1.0",
+    "@request/oauth": "^0.1.0",
+    "body-parser": "^1.18.2",
+    "bluebird": "^3.5.0",
+    "express": "^4.15.4",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "flickrapi": "^0.6.0",
+    "fs": "0.0.1-security",
+    "grant-express": "^3.8.1",
+    "isomorphic-fetch": "^2.2.1",
+    "morgan": "^1.8.2",
+    "node-fetch": "^2.0.0",
+    "purest": "^3.0.1",
+    "uuid": "^3.1.0",
+    "winston": "^2.3.1"
+  }
+}
