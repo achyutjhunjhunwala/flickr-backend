@@ -54,8 +54,10 @@ app.use((0, _morgan2.default)('combined', { stream: _logger2.default.stream }));
 // Connect all our routes to our application
 app.use('/', _routes2.default);
 
-app.listen(_constants.APPLICATION_PORT, () => {
-  _logger2.default.info(`Express server listening on port ${_constants.APPLICATION_PORT}`);
+const port = process.env.PORT || _constants.APPLICATION_PORT;
+
+app.listen(port, () => {
+  _logger2.default.info(`Express server listening on port ${port}`);
   _logger2.default.info('-> TheUiGuy - Insane Mode On');
-  _logger2.default.info(`First of all, you must validate the application opening: http://127.0.0.1:${_constants.APPLICATION_PORT}/`);
+  _logger2.default.info(`First of all, you must validate the application opening: http://127.0.0.1:${port}/`);
 });
