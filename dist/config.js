@@ -8,8 +8,8 @@ var _constants = require('./constants');
 
 exports.default = {
   server: {
-    protocol: 'http',
-    host: '127.0.0.1:3000',
+    protocol: 'https',
+    host: 'flickr-backend.herokuapp.com',
     callback: '/callback',
     transport: 'session',
     state: true
