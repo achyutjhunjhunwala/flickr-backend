@@ -41,7 +41,7 @@
     "express": "^4.15.4",
     "express-session": "^1.15.6",
     "express-validator": "^4.3.0",
-    "flickrapi": "^0.6.0",
+    "flickrapi": "^0.6.2",
     "fs": "0.0.1-security",
     "grant-express": "^3.8.1",
     "isomorphic-fetch": "^2.2.1",
