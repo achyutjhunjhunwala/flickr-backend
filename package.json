@@ -37,7 +37,7 @@
     "@request/client": "^0.1.0",
     "@request/oauth": "^0.1.0",
     "body-parser": "^1.18.2",
-    "bluebird": "^3.5.0",
+    "bluebird": "^3.7.2",
     "express": "^4.15.4",
     "express-session": "^1.15.6",
     "express-validator": "^4.3.0",
