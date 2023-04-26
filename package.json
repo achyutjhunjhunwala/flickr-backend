@@ -36,7 +36,7 @@
     "@purest/providers": "^1.0.4",
     "@request/client": "^0.1.0",
     "@request/oauth": "^0.1.0",
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.20.2",
     "bluebird": "^3.7.2",
     "express": "^4.15.4",
     "express-session": "^1.15.6",
