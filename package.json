@@ -38,7 +38,7 @@
     "@request/oauth": "^0.1.0",
     "body-parser": "^1.20.2",
     "bluebird": "^3.7.2",
-    "express": "^4.15.4",
+    "express": "^4.18.2",
     "express-session": "^1.15.6",
     "express-validator": "^4.3.0",
     "flickrapi": "^0.6.2",
