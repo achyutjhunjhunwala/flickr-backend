@@ -43,7 +43,7 @@
     "express-validator": "^4.3.0",
     "flickrapi": "^0.6.2",
     "fs": "0.0.1-security",
-    "grant-express": "^3.8.1",
+    "grant-express": "^5.4.8",
     "isomorphic-fetch": "^2.2.1",
     "morgan": "^1.8.2",
     "node-fetch": "^2.0.0",
