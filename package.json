@@ -47,7 +47,7 @@
     "isomorphic-fetch": "^3.0.0",
     "morgan": "^1.10.0",
     "node-fetch": "^3.3.1",
-    "purest": "^3.0.1",
+    "purest": "^4.0.3",
     "uuid": "^9.0.0",
     "winston": "^3.8.2"
   }
